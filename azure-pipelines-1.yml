@@ -18,5 +18,5 @@ steps:
     *) $BUILD_REASON ;;
     esac
   displayName: Hello world
-  String valor = displayName
+   String valor = displayName
 
