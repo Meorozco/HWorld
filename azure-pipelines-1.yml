@@ -18,5 +18,8 @@ steps:
     *) $BUILD_REASON ;;
     esac
   displayName: Hello world
-   String valor = displayName
+- task: PythonScript@0
+  inputs:
+    scriptSource: 'inline'
+    script: 'print("hola mundo")'
 
